@@ -6,7 +6,7 @@
 /*   By: asando <asando@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/28 11:07:07 by asando            #+#    #+#             */
-/*   Updated: 2026/06/28 12:23:54 by asando           ###   ########.fr       */
+/*   Updated: 2026/06/28 17:01:33 by asando           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,9 +45,9 @@ class	Fixed {
 		Fixed	operator/(const Fixed& rhs) const;
 
 		Fixed&	operator++();
-		Fixed&	operator++(int);
+		Fixed	operator++(int);
 		Fixed&	operator--();
-		Fixed&	operator--(int);
+		Fixed	operator--(int);
 
 		static Fixed&		min(Fixed& a, Fixed& b);
 		static const Fixed&	min(const Fixed& a, const Fixed& b);
