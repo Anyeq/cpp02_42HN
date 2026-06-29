@@ -6,7 +6,7 @@
 /*   By: asando <asando@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/29 14:17:55 by asando            #+#    #+#             */
-/*   Updated: 2026/06/29 14:25:08 by asando           ###   ########.fr       */
+/*   Updated: 2026/06/29 15:12:56 by asando           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,4 +30,5 @@ class	Point {
 		Fixed	getY(void) const;
 };
 
+bool bsp(Point const a, Point const b, Point const c, Point const p);
 #endif
