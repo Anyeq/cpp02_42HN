@@ -6,11 +6,12 @@
 /*   By: asando <asando@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/26 21:08:47 by asando            #+#    #+#             */
-/*   Updated: 2026/06/26 22:34:09 by asando           ###   ########.fr       */
+/*   Updated: 2026/06/29 21:29:48 by asando           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
+#include <iostream>
 
 int	main(void) {
 	Fixed		a;

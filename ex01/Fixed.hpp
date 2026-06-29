@@ -6,7 +6,7 @@
 /*   By: asando <asando@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/26 21:08:57 by asando            #+#    #+#             */
-/*   Updated: 2026/06/26 22:34:17 by asando           ###   ########.fr       */
+/*   Updated: 2026/06/29 21:33:34 by asando           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,6 @@ class Fixed {
 		int		toInt(void) const;
 };
 
-std::ostream& operator<<(std::ostream& out, const Fixed& fixed);
+std::ostream&	operator<<(std::ostream& out, const Fixed& fixed);
 
 #endif
