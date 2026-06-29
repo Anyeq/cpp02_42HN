@@ -6,7 +6,25 @@
 /*   By: asando <asando@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/29 14:18:05 by asando            #+#    #+#             */
-/*   Updated: 2026/06/29 14:18:06 by asando           ###   ########.fr       */
+/*   Updated: 2026/06/29 14:41:31 by asando           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "Point.hpp"
+
+Point::Point() : _x(0), _y(0) {}
+
+Point::Point(const float x, const float y) : _x(x), _y(y) {}
+
+Point::Point(const Point& other) : _x(other._x), _y(other._y) {}
+
+Point& Point::operator=(const Point& rhs) {
+	(void)rhs;
+	return *this;
+}
+
+Point::~Point() {}
+
+Fixed Point::getX(void) const { return _x; }
+
+Fixed Point::getY(void) const { return _y; }
